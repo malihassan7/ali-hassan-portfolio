@@ -15,7 +15,6 @@ const ThemeSwitcher = () => {
   const themes = [
     { name: "blue", icon: <Droplet className="h-4 w-4" />, label: "Light" },
     { name: "dark", icon: <Moon className="h-4 w-4" />, label: "Dark" },
-    { name: "purple", icon: <Palette className="h-4 w-4" />, label: "Purple" },
   ];
 
   return (

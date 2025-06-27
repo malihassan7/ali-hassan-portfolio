@@ -95,7 +95,6 @@ const SkillsSection = () => {
                     variants={skillItemVariants}
                     whileHover={{
                       scale: 1.05,
-                      backgroundColor: "rgba(var(--primary), 0.05)",
                     }}
                     whileTap={{ scale: 0.98 }}
                   >
