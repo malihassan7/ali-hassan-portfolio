@@ -16,7 +16,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects" className=" bg-background/50">
+    <section id="projects" className="modern-grid-bg">
       <div className="section-container">
         <h2 className="section-heading">Projects</h2>
         <p className="text-muted-foreground max-w-2xl mb-12">

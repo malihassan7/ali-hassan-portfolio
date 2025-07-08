@@ -39,7 +39,7 @@ const SkillsSection = () => {
   };
 
   return (
-    <section id="skills" className=" bg-background">
+    <section id="skills" className="modern-grid-bg">
       <div className="section-container">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

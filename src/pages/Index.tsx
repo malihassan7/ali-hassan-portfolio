@@ -7,9 +7,9 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import SkillsSection from "@/components/SkillsSection";
-import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import ScrollProgressBar from "@/components/ScrollProgressBar";
+import TradeMarqueeSection from "@/components/TradeMarqueeSection";
 
 
 const sections = [
@@ -53,17 +53,16 @@ const Index = () => {
   }, [navigate]);
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen modern-grid-bg">
    
-      <ScrollProgressBar />
+      <Scrollspy/>
       <Navbar />
-      <Scrollspy items={sections} currentClassName="active" offset={-50}>
-        <HeroSection />
-        <AboutSection />
-        <SkillsSection />        
-        <ProjectsSection />
-        <ContactSection />
-      </Scrollspy>
+      <ScrollProgressBar />
+      <HeroSection />
+      <AboutSection />
+      <SkillsSection />
+      <ProjectsSection />
+      <TradeMarqueeSection/>
       <Footer />
     </div>
   );

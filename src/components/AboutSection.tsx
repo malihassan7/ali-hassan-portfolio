@@ -47,7 +47,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section id="about" className="py-14 relative bg-background">
+    <section id="about" className="py-14 relative modern-grid-bg">
       <div className="absolute top-0 inset-x-0 h-1/2 bg-gradient-to-b from-primary/5 to-background -z-10"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h2
@@ -167,7 +167,7 @@ Always eager to learn new technologies and deliver high-performance solutions.
                   alt="Aathif Zahir"
                   loading="lazy"
                 />
-                <AvatarFallback>AZ</AvatarFallback>
+                <AvatarFallback>AH</AvatarFallback>
               </Avatar>
 
             </motion.div>
@@ -206,7 +206,7 @@ Always eager to learn new technologies and deliver high-performance solutions.
               whileTap={{ scale: 0.98 }}
             >
               <Button className="gap-2" asChild onClick={handledownload}>
-                <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
+                <a href={resumeUrl}>
                   <Download className="w-4 h-4" />
                   Download Resume
                 </a>

@@ -8,7 +8,7 @@ import { useToast } from "@/hooks/use-toast";
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState("Home"); // Add this line
+  const [activeSection, setActiveSection] = useState("Home");
   const resumeUrl = Links.resume;
   const { toast } = useToast();
 
@@ -95,7 +95,7 @@ const Navbar = () => {
                 asChild
                 onClick={handledownload}
               >
-                <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
+                <a href={resumeUrl}>
                   Resume
                 </a>
               </Button>
@@ -159,7 +159,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button size="sm" className="ml-3 mt-2" asChild>
-              <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
+              <a href={resumeUrl}>
                 Resume
               </a>
             </Button>
