@@ -164,7 +164,7 @@ Always eager to learn new technologies and deliver high-performance solutions.
               <Avatar className="w-40 h-40 border-4 border-primary/20">
                 <AvatarImage
                   src="/imgs/me.png"
-                  alt="Aathif Zahir"
+                  alt="Ali Hassan"
                   loading="lazy"
                 />
                 <AvatarFallback>AH</AvatarFallback>

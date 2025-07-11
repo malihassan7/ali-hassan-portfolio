@@ -58,6 +58,17 @@ export const projects: Project[] = [
   },
   {
     id: 5,
+    title: "Zaraee",
+    description: "Zaraee.pk is a Pakistan-based online marketplace for agricultural supplies, offering farmers a wide selection of seeds, fertilizers, pesticides, veterinary medicines, equipment, and cattle feed.",
+    image: "/imgs/p6.png",
+    tags: ["Javascript", "php","Laravel", "Bootstrap", "SQL"],
+    links: {
+      github: "",
+      live: "https://zaraee.pk/",
+    },
+  },
+  {
+    id: 6,
     title: "Getamz Reviews",
     description: "getamzreviews.com is a service that sells “verified purchase” Amazon reviews—customers pay, and real buyers post positive reviews on their products, backed by a 6‑month replacement guarantee if Amazon removes them",
     image: "/imgs/p5.png",
