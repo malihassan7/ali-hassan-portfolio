@@ -48,7 +48,7 @@ export const projects: Project[] = [
   {
     id: 4,
     title: "Muhammadan Quran School",
-    description: "Muhammadan Quran School is a global online institute specializing in Quranic and Islamic education.",
+    description: "Muhammadan Quran School is a global online institute specializing in Quranic and Islamic education. Also a educational management system that provides a comprehensive platform for managing students, teachers, courses, and administrative tasks.",
     image: "/imgs/p4.png",
     tags: ["Javascript", "php", "Bootstrap", "SQL"],
     links: {
